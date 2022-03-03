@@ -1,32 +1,29 @@
-import {
-  Row,
-  Col
-} from 'react-bootstrap';
-import './ChainAgnostic.css';
-import img from './chain-agnostic.png';
+import img from "./chain-agnostic.png";
 
-const ChainAgnostic = props => {
+const ChainAgnostic = () => {
   return (
-    <section id='chain-agnostic'>
-      <Row className='content-row'>
-        <Col md={6} className='image-container'>
+    <section id="chain-agnostic">
+      <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col justify-center">
           <img
+            className="object-scale-down w-[500px]"
             src={img}
-            width="350"
-            height="400"
-            className="d-inline-block align-top"
-            alt="HyperDapp"
+            alt="_chain-agnostic"
           />
-        </Col>
-        <Col md={6}>
-          <h1>Chain Agnostic</h1>
-
-          <h3>Cortex works with any EVM supported blockchain</h3>
-          <h5>Define flows to work with smart contracts on Ethereum, Polygon, Arbitrum or any other EVM supported chain.</h5>
-        </Col>
-      </Row>
+        </div>
+        <div className="flex flex-col gap-4">
+          <span className="text-5xl">Chain Agnostic</span>
+          <span className="text-4xl subtitle">
+            Cortex works with any EVM supported blockchain
+          </span>
+          <p className="flex flex-col text-3xl leading-normal">
+            Define flows to work with smart contracts on Ethereum, Polygon,
+            Arbitrum or any other EVM supported chain.
+          </p>
+        </div>
+      </div>
     </section>
   );
-}
+};
 
 export default ChainAgnostic;

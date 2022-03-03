@@ -1,33 +1,31 @@
-import {
-  Row,
-  Col
-} from 'react-bootstrap';
-import './Decentralized.css';
-import img from './decentralized.png';
+import img from "./decentralized.png";
 
-const Decentralized = props => {
+const Decentralized = () => {
   return (
-    <section id='decentralized'>
-      <Row className='content-row'>
-        <Col md={6} className='image-container'>
+    <section id="decentralized">
+      <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col justify-center">
           <img
+            className="object-scale-down w-[500px] md:w-[950px]"
             src={img}
-            width="350"
-            height="400"
-            className="d-inline-block align-top"
-            alt="HyperDapp"
+            alt="_decentralized"
           />
-        </Col>
-        <Col md={6}>
-          <h1>Hubnet</h1>
-
-          <h3>A decentralized registry for cortex flows</h3>
-          <h5>Hubnet allows developers to publish their cortex flow so that their dapp business logic is always available and ready to use by anyone who wishes to interact with their smart contracts in a predictable and secure manner.</h5>
-        </Col>
-
-      </Row>
+        </div>
+        <div className="flex flex-col gap-4">
+          <span className="text-5xl">CortexHub</span>
+          <span className="text-4xl subtitle">
+            A decentralized registry for cortex flows
+          </span>
+          <p className="flex flex-col text-3xl leading-normal">
+            CortexHub allows developers to publish their cortex flow so that
+            their dApp business logic is always available and ready to use by
+            anyone who wishes to interact with their smart contracts in a
+            predictable and secure manner.
+          </p>
+        </div>
+      </div>
     </section>
   );
-}
+};
 
 export default Decentralized;
