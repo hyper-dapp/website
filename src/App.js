@@ -18,9 +18,9 @@ const App = () => {
   return (
     <div className="bg-[#272a2d] text-white">
       <NavBar links={links} />
-      <div className="container pb-16">
+      <div className="container p-16">
         <Home />
-        <div className="flex flex-col gap-30 md:gap-72">
+        <div className="flex flex-col mt-40 gap-40 md:mt-80 md:gap-80">
           <DefineVerify />
           <Decentralized />
           <Composable />

@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 const Home = () => {
   return (
     <section id="home">
-      <div className="flex flex-col justify-center h-screen">
+      <div className="flex flex-col justify-center">
         <div className="flex flex-row w-full md:w-3/4">
           <div className="flex flex-col gap-4">
             <span className="text-5xl">
