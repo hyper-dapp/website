@@ -19,7 +19,7 @@ const Home = () => {
               on the interface layer of dApps.
             </p>
             <div className="flex flex-row">
-              <Button className="w-[160px]" size="lg" variant="outline-info">
+              <Button className="w-[160px]" size="lg" variant="outline-info" href="https://forms.gle/xfaNxqCVWMWQkgQn9">
                 Contact Us
               </Button>
             </div>

@@ -12,7 +12,7 @@ import "./App.css";
 const App = () => {
   const links = [
     { href: "#define-verify", name: "Solutions" },
-    { href: "#decentralized", name: "Sign up for Alpha Release" },
+    { href: "https://forms.gle/xfaNxqCVWMWQkgQn9", name: "Contact Us" },
   ];
 
   return (

@@ -5,3 +5,7 @@ body {
 span.subtitle {
   color: #07c8d6;
 }
+
+#home {
+  min-height: 100vh;
+}
