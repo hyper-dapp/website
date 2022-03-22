@@ -2,7 +2,7 @@ import img from "./cortex.png";
 
 const DefineVerify = () => {
   return (
-    <section id="define-verify">
+    <section id="solution">
       <div className="flex flex-col md:flex-row md:flex-row-reverse gap-10">
         <div className="flex flex-col justify-center items-center">
           <img
@@ -17,10 +17,10 @@ const DefineVerify = () => {
             A behavior engine to power smart contract interactions
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            Cortex allows developers to define business logic behavior for
-            interfacing with smart contracts. Each business logic flow is
-            packaged into an artifact that is verifiable, immutable and
-            trustless. Allowing predictable and secure client side interactions
+            Cortex allows developers to define front-end logic for
+            interfacing with smart contracts. Each logic definition is
+            compiled into an artifact that is verifiable and immutable.
+            Allowing predictable and secure client side interactions
             with the blockchain.
           </p>
         </div>

@@ -13,15 +13,16 @@ const Composable = () => {
         </div>
         <div className="flex flex-col gap-4 justify-center">
           <span className="text-3xl md:text-5xl">
-            Composable and Interoperable for the Web3 world
+            Composable interoperability for Web3
           </span>
           <span className="text-2xl md:text-4xl subtitle">
-            Define the business logic once and use everywhere
+            Define the front-end logic once and use everywhere
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            Cortex is designed to work on any text based interface. Allowing
-            chat bots, CLIs, meta-verse platforms or any platform supporting
-            text to use the cortex engine to interface with smart contracts.
+            HyperDapp's interpreter engine, can be embedded through an iframe or
+            into any text based interface. Supporting chat-bots, CLIs, mobile-apps,
+            video games or metaverse platforms to interface with smart contracts
+            through defined front-end workflows.
           </p>
         </div>
       </div>

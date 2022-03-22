@@ -6,6 +6,16 @@ span.subtitle {
   color: #07c8d6;
 }
 
-#home {
-  min-height: 100vh;
+#solution {
+  padding-top: 100px;
+}
+
+#chain-agnostic {
+  padding-bottom: 100px;
+}
+
+.nav-bar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
 }

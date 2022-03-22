@@ -14,11 +14,11 @@ const ChainAgnostic = () => {
         <div className="flex flex-col gap-4 justify-center">
           <span className="text-3xl md:text-5xl">Chain Agnostic</span>
           <span className="text-2xl md:text-4xl subtitle">
-            Cortex works with any EVM supported blockchain
+            HyperDapp works with any EVM supported blockchain
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            Define flows to work with smart contracts on Ethereum, Polygon,
-            Arbitrum or any other EVM supported chain.
+            Define front-end workflows for any smart contracts on Ethereum,
+            Polygon, Arbitrum or any other EVM supported chain.
           </p>
         </div>
       </div>
