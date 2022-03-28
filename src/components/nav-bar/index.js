@@ -19,7 +19,7 @@ const NavBar = (props) => {
   );
 
   return (
-    <Navbar className="nav-bar" bg="dark" expand="lg">
+    <Navbar className="nav-bar" bg="dark" expand="lg" variant="dark">
       <Container>
         <Navbar.Brand href="#home">
           <img

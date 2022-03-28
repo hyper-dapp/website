@@ -1,3 +1,4 @@
+import { DEFINE_VERIFY_TEXT } from "../../texts";
 import img from "./cortex.png";
 
 const DefineVerify = () => {
@@ -12,16 +13,14 @@ const DefineVerify = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center">
-          <span className="text-3xl md:text-5xl">Cortex</span>
+          <span className="text-3xl md:text-5xl">
+            {DEFINE_VERIFY_TEXT.title}
+          </span>
           <span className="text-2xl md:text-4xl subtitle">
-            A behavior engine to power smart contract interactions
+            {DEFINE_VERIFY_TEXT.subtitle}
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            Cortex allows developers to define front-end logic for
-            interfacing with smart contracts. Each logic definition is
-            compiled into an artifact that is verifiable and immutable.
-            Allowing predictable and secure client side interactions
-            with the blockchain.
+            {DEFINE_VERIFY_TEXT.description}
           </p>
         </div>
       </div>

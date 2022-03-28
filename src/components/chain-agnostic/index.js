@@ -1,4 +1,5 @@
 import img from "./chain-agnostic.png";
+import { CHAIN_AGNOSTIC_TEXT } from "../../texts";
 
 const ChainAgnostic = () => {
   return (
@@ -12,13 +13,14 @@ const ChainAgnostic = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center">
-          <span className="text-3xl md:text-5xl">Chain Agnostic</span>
+          <span className="text-3xl md:text-5xl">
+            {CHAIN_AGNOSTIC_TEXT.title}
+          </span>
           <span className="text-2xl md:text-4xl subtitle">
-            HyperDapp works with any EVM supported blockchain
+            {CHAIN_AGNOSTIC_TEXT.subtitle}
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            Define front-end workflows for any smart contracts on Ethereum,
-            Polygon, Arbitrum or any other EVM supported chain.
+            {CHAIN_AGNOSTIC_TEXT.description}
           </p>
         </div>
       </div>

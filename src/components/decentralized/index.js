@@ -1,4 +1,5 @@
 import img from "./decentralized.png";
+import { DECENTRALIZED_TEXT } from "../../texts";
 
 const Decentralized = () => {
   return (
@@ -12,13 +13,14 @@ const Decentralized = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center">
-          <span className="text-3xl md:text-5xl">CortexHub</span>
+          <span className="text-3xl md:text-5xl">
+            {DECENTRALIZED_TEXT.title}
+          </span>
           <span className="text-2xl md:text-4xl subtitle">
-            Decentralized distribution for dApp front-ends
+            {DECENTRALIZED_TEXT.subtitle}
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            CortexHub is a registry to allows developers to publish their front-end logic
-            artifacts to be available and ready to use by any platform supporting the protocol.
+            {DECENTRALIZED_TEXT.description}
           </p>
         </div>
       </div>

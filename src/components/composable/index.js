@@ -1,4 +1,5 @@
 import img from "./composable.png";
+import { COMPOSABLE_TEXT } from "../../texts";
 
 const Composable = () => {
   return (
@@ -12,17 +13,12 @@ const Composable = () => {
           />
         </div>
         <div className="flex flex-col gap-4 justify-center">
-          <span className="text-3xl md:text-5xl">
-            Composable interoperability for Web3
-          </span>
+          <span className="text-3xl md:text-5xl">{COMPOSABLE_TEXT.title}</span>
           <span className="text-2xl md:text-4xl subtitle">
-            Define the front-end logic once and use everywhere
+            {COMPOSABLE_TEXT.subtitle}
           </span>
           <p className="flex flex-col text-xl md:text-3xl leading-normal">
-            HyperDapp's interpreter engine, can be embedded through an iframe or
-            into any text based interface. Supporting chat-bots, CLIs, mobile-apps,
-            video games or metaverse platforms to interface with smart contracts
-            through defined front-end workflows.
+            {COMPOSABLE_TEXT.description}
           </p>
         </div>
       </div>
