@@ -1,7 +1,15 @@
 {
-  "name": "website",
+  "name": "landing-page",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && npm run cloud:deploy",
+    "cloud:deploy": "aws2 s3 sync build/ s3://hyperdapp.xyz --acl public-read --profile personal-aws-admin",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -14,13 +22,11 @@
     "react-tsparticles": "^1.42.4",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "npm run build && npm run cloud:deploy",
-    "cloud:deploy": "aws2 s3 sync build/ s3://hyperdapp.xyz --acl public-read --profile personal-aws-admin",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23"
   },
   "eslintConfig": {
     "extends": [
@@ -39,11 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.7",
-    "prettier": "^2.5.1",
-    "tailwindcss": "^3.0.23"
   }
 }

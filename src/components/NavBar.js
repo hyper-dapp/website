@@ -18,7 +18,13 @@ const NavBar = (props) => {
   );
 
   return (
-    <Navbar className="nav-bar" bg="dark" expand="lg" variant="dark">
+    <Navbar
+      className="nav-bar"
+      bg="dark"
+      expand="lg"
+      variant="dark"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img
