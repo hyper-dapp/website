@@ -1,6 +1,5 @@
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
-import "./NavBar.css";
-import logo from "./banner-logo.png";
+import logo from "../assets/images/banner-logo.png";
 
 const NavBar = (props) => {
   const links = props.links.map((l, i) => (

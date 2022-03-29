@@ -1,3 +1,19 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #272a2d !important;
+}
+
+.nav-bar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: white !important;
+}
