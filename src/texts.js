@@ -13,13 +13,13 @@ export const EDITOR = {
 export const REGISTRY = {
   title: `The Flow Registry`,
   subtitle: `A decentralized registry for dApp front-ends`,
-  description: `Each logic workflow definition is compiled into an immutable and verifiable artifact that is deployed to the HyperDapp Flow Registry, which allows predictable and secure client-side interactions with the blockchain.`,
+  description: `Each logic workflow definition is compiled into an immutable and verifiable artifact that is deployed to the HyperDapp Flow Registry. Allowing predictable and secure client-side interactions with the blockchain.`,
 };
 
 export const INTERPRETER = {
   title: `The Interpreter Engine`,
   subtitle: `Create the front-end once and use it everywhere`,
-  description: `The interpreter engine loads and interprets any flow that is stored as an artifact in the registry, and generates the UI accordingly. The generated UI can be embedded into any website through iframe. `,
+  description: `The interpreter engine loads and interprets any flow that is stored as an artifact in the registry to generate the UI accordingly. The generated UI can be embedded into any website through iframe.`,
 };
 
 export const CHAIN_AGNOSTIC = {
